@@ -8,6 +8,15 @@ img.animated-gif{
     height: auto;
 }
 
+img.animated-gif2{
+    width: 450px;
+    height: auto;
+}
+img.animated-gif3{
+    width: 450px;
+    height: auto;
+}
+
 .link-style{
     color :hsl(235, 86%, 65%)
 }
@@ -15,14 +24,21 @@ img.animated-gif{
     color :hsl(0, 100%, 50%)
 }
 
+.link-style2{
+    color :hsl(212, 16%, 79%)
+}
+
 h1{
+    text-align: center;
     color : hsl(51, 74%, 64%)
 }
 
 h2{
+    text-align: center;
     color : hsl(51, 74%, 64%)
 }
 
 h3{
+    text-align: center;
     color : hsl(51, 74%, 64%)
 }
