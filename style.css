@@ -28,10 +28,16 @@ img.flor-gif2{
     height: auto;
 }
 
+.game-style{
+    font-size: x-large;
+    color :hsl(120, 51%, 48%)
+}
+
 .link-style{
     font-size: x-large;
     color :hsl(235, 86%, 65%)
 }
+
 .link-style1{
     font-size: x-large;
     color :hsl(0, 100%, 50%)
