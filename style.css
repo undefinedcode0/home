@@ -9,15 +9,8 @@ img.flor-gif1{
     height: auto;
 }
 
-img.animated-gif1{
-    width: 450px;
-    height: auto;
-}
-
-img.animated-gif2{
-    width: 450px;
-    height: auto;
-}
+img.animated-gif1,
+img.animated-gif2,
 img.animated-gif3{
     width: 450px;
     height: auto;
@@ -30,37 +23,31 @@ img.flor-gif2{
 
 .game-style{
     font-size: x-large;
-    color :hsl(120, 51%, 48%)
+    color: hsl(120, 51%, 48%);
 }
 
 .gen-style{
     font-size: x-large;
-    color :hsl(202, 98%, 50%)
+    color: hsl(202, 98%, 50%);
 }
 
 .link-style{
     font-size: x-large;
-    color :hsl(235, 86%, 65%)
+    color: hsl(235, 86%, 65%);
 }
 
 .link-style1{
     font-size: x-large;
-    color :hsl(0, 100%, 50%)
+    color: hsl(0, 100%, 50%);
 }
 
 .link-style2{
     font-size: x-large;
-    color :hsl(212, 16%, 79%)
+    color: hsl(212, 16%, 79%);
 }
 
-h1{
-    color : hsl(51, 74%, 64%)
-}
-
-h2{
-    color : hsl(51, 74%, 64%)
-}
-
+h1,
+h2,
 h3{
-    color : hsl(51, 74%, 64%)
+    color: hsl(51, 74%, 64%);
 }
