@@ -1,51 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-	  <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/Quantum3566/home/main/assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://raw.githubusercontent.com/Quantum3566/home/main/assets/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome!</title>
 </head>
 <body>
-     <audio autoplay loop>
+    <audio autoplay loop>
         <source src="https://raw.githubusercontent.com/Quantum3566/home/main/music/cof.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-      </audio>
+        Your browser does not support the audio element.
+    </audio>
     <h1>Welcome to the stuff I make!!</h1>
     <h2>I just do some random tech stuff. So I put it here.</h2>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <!-- Use CSS for spacing instead of multiple <br> tags -->
+    <div class="spacer"></div>
     <img class="flor-gif1" src="https://raw.githubusercontent.com/Quantum3566/home/main/assets/ny1.gif">
+    <!-- Consider using a CSS sprite sheet for multiple gifs -->
     <img class="animated-gif1" src="https://raw.githubusercontent.com/Quantum3566/home/main/assets/nyan1.gif">        
     <img id="cat" class="animated-gif2" src="https://raw.githubusercontent.com/Quantum3566/home/main/assets/nyan.gif"> 
     <img class="animated-gif3" src="https://raw.githubusercontent.com/Quantum3566/home/main/assets/nyan2.gif">
     <img class="flor-gif2" src="https://raw.githubusercontent.com/Quantum3566/home/main/assets/ny2.gif">
-    <br>
-    <br>
-    <br>
-    <h1>---------Stuff---------</h1>
-    <a href="https://quantum3566.github.io/webhook-sender/" class="link-style">Webhook Sender</a>
-    <br>
-    <a href="https://quantum3566.github.io/home/Webs/index.html" class="game-style">Unblocked Games</a>
-    <br>
-    <a href="https://github.com/Quantum3566/passwordGenerator" class="gen-style">Password Generator</a>
-    <br>
-    <br>
-    <br>
-    <h1>---------Socials---------</h1>
-    <a href="https://www.youtube.com/channel/UCmMYkdnhCKMODPm3MFlj3_w" class="link-style1">Youtube Channel</a>
-    <br>
-    <a href="https://www.roblox.com/users/3481257996/profile" class="link-style2">Roblox profile</a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h3>More stuff coming soon</h4>
+    <!-- Use semantic HTML for grouping related content -->
+    <section>
+        <h1>---------Stuff---------</h1>
+        <a href="https://quantum3566.github.io/webhook-sender/" class="link-style">Webhook Sender</a>
+        <a href="https://quantum3566.github.io/home/Webs/index.html" class="game-style">Unblocked Games</a>
+        <a href="https://github.com/Quantum3566/passwordGenerator" class="gen-style">Password Generator</a>
+    </section>
+    <!-- Use semantic HTML for grouping related content -->
+    <section>
+        <h1>---------Socials---------</h1>
+        <a href="https://www.youtube.com/channel/UCmMYkdnhCKMODPm3MFlj3_w" class="link-style1">Youtube Channel</a>
+        <a href="https://www.roblox.com/users/3481257996/profile" class="link-style2">Roblox profile</a>
+    </section>
+    <div class="spacer"></div>
+    <h3>More stuff coming soon</h3>
 </body>
 </html>
